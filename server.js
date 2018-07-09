@@ -6,7 +6,7 @@ const mime = require('mime');
 const cache = {};
 
 //config const
-const publicDir = 'public';
+const publicDir = 'build';
 const serverConf = {
 	port: 3001,
 	host: '127.0.0.1',
@@ -16,8 +16,7 @@ const serverConf = {
 //helpers function
 const send404 = res => {
 	res.writeHead( 404, {"Content-Type": "text/plain"} );
-	res.write( "404, Page nod found!" );
-	res.end();
+	res.end("404, Page nod found!");
 }
 
 
