@@ -2,7 +2,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const mime = require('mime');
+const mime = require('../../Users/CSeal/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/mime');
 const cache = {};
 
 //config const

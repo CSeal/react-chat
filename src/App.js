@@ -1,12 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from '../../../Users/CSeal/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
+//import logo from './logo.svg';
 import './App.css';
-import LPProcessor from './LPProcessor';
+//import LPProcessor from './LPProcessor';
+import SeoHide from './components/SeoHide.tsx'; 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+          <SeoHide sHref sContent sImg >
+            <a href='http://google.com.ua' title='google'>google.com.ua</a>
+            <span>
+              Hello World
+              <a href='http://msn.com.ua'>MSN</a>
+              <img src='http://avto-nakleyki66.ru/uploads/product/1408/loupe.jpg' alt='Dart Weider' />
+            </span>
+            <a href='http://tekknow.com.ua'>My Site</a>
+          </SeoHide>
+    );
+  }
+}
+
+export default App;
+
+
+{/*       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
@@ -15,9 +32,4 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
           <LPProcessor/>
-      </div>
-    );
-  }
-}
-
-export default App;
+      </div> */}

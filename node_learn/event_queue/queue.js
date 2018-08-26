@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 fs.open(__filename, 'r', (err, file) => {
-	console.log(file);
+	console.log(file, 'f');
 });
 
 setImmediate(()=>{
