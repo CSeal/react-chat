@@ -1,0 +1,6 @@
+{
+  "login": "19mann84@gmail.com",
+  "email": "info@tekknow.com.ua",
+  "password": "trtertert",
+  "password-confirm": "etertrtertert"
+}
